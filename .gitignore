@@ -1,0 +1,16 @@
+# Ignore everything...
+*
+
+# ...but look inside every folder
+!*/
+
+# ...and keep code and repo files
+!*.m
+!*.mlx
+!.gitignore
+!.gitattributes
+!README.md
+
+# Still skip MATLAB autosaves and old result folders
+*.asv
+Results/
