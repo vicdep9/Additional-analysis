@@ -4,12 +4,14 @@
 # ...but look inside every folder
 !*/
 
-# ...and keep code and repo files
+# ...and keep code, apps, notes and stimulus videos
 !*.m
 !*.mlx
+!*.mlapp
+!*.md
+!*.txt
 !.gitignore
 !.gitattributes
-!README.md
 
 # Still skip MATLAB autosaves and old result folders
 *.asv
